@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF4447F23CC123900E9DB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4447E23CC123900E9DB0B /* AppDelegate.m */; };
+		4CF4448223CC123900E9DB0B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4448123CC123900E9DB0B /* SceneDelegate.m */; };
+		4CF4448523CC123900E9DB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4448423CC123900E9DB0B /* ViewController.m */; };
+		4CF4448823CC123900E9DB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4448623CC123900E9DB0B /* Main.storyboard */; };
+		4CF4448A23CC123A00E9DB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4448923CC123A00E9DB0B /* Assets.xcassets */; };
+		4CF4448D23CC123A00E9DB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4448B23CC123A00E9DB0B /* LaunchScreen.storyboard */; };
+		4CF4449023CC123A00E9DB0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4448F23CC123A00E9DB0B /* main.m */; };
+		4CF444B923CC49BE00E9DB0B /* JSAnalysis+Userinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4449723CC49BE00E9DB0B /* JSAnalysis+Userinfo.m */; };
+		4CF444BA23CC49BE00E9DB0B /* JSAnalysis+SystemSourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4449823CC49BE00E9DB0B /* JSAnalysis+SystemSourceInfo.m */; };
+		4CF444BB23CC49BE00E9DB0B /* JSAnalysis+SIMCardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4449B23CC49BE00E9DB0B /* JSAnalysis+SIMCardInfo.m */; };
+		4CF444BC23CC49BE00E9DB0B /* JSAnalysis+AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4449C23CC49BE00E9DB0B /* JSAnalysis+AppInfo.m */; };
+		4CF444BD23CC49BE00E9DB0B /* JSAnalysis+NetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4449E23CC49BE00E9DB0B /* JSAnalysis+NetInfo.m */; };
+		4CF444BE23CC49BE00E9DB0B /* JSAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4449F23CC49BE00E9DB0B /* JSAnalysis.m */; };
+		4CF444BF23CC49BE00E9DB0B /* JSAnalysis+ClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444A023CC49BE00E9DB0B /* JSAnalysis+ClientInfo.m */; };
+		4CF444C023CC49BE00E9DB0B /* JSAnalysisGPSLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444A123CC49BE00E9DB0B /* JSAnalysisGPSLocationTool.m */; };
+		4CF444C123CC49BE00E9DB0B /* JSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444A223CC49BE00E9DB0B /* JSReachability.m */; };
+		4CF444C223CC49BE00E9DB0B /* JSAnalysis+ScreenInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444A423CC49BE00E9DB0B /* JSAnalysis+ScreenInfo.m */; };
+		4CF444C323CC49BE00E9DB0B /* JSAnalysisEncryptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444A923CC49BE00E9DB0B /* JSAnalysisEncryptionTool.m */; };
+		4CF444C423CC49BE00E9DB0B /* NSString+JSAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444AA23CC49BE00E9DB0B /* NSString+JSAnalysis.m */; };
+		4CF444C523CC49BE00E9DB0B /* NSData+JSAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444AB23CC49BE00E9DB0B /* NSData+JSAnalysis.m */; };
+		4CF444C623CC49BE00E9DB0B /* JSAnalysis+SensorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444AD23CC49BE00E9DB0B /* JSAnalysis+SensorInfo.m */; };
+		4CF444C723CC49BE00E9DB0B /* JSAnalysis+ContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444AE23CC49BE00E9DB0B /* JSAnalysis+ContentInfo.m */; };
+		4CF444C823CC49BE00E9DB0B /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444B523CC49BE00E9DB0B /* getgateway.c */; };
+		4CF444CB23CC4BDA00E9DB0B /* NSData+JSCommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF444C923CC4BDA00E9DB0B /* NSData+JSCommonCrypto.m */; };
+		4CF444CE23CC4C5800E9DB0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF444CD23CC4C5800E9DB0B /* CoreGraphics.framework */; };
+		4CF444D023CC4C6100E9DB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF444CF23CC4C6100E9DB0B /* Foundation.framework */; };
+		4CF444D223CC4C6900E9DB0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF444D123CC4C6900E9DB0B /* UIKit.framework */; };
+		4CF444D423CC7A3E00E9DB0B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF444D323CC7A2800E9DB0B /* libresolv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CF4447A23CC123900E9DB0B /* JSAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF4447D23CC123900E9DB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CF4447E23CC123900E9DB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CF4448023CC123900E9DB0B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4CF4448123CC123900E9DB0B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4CF4448323CC123900E9DB0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CF4448423CC123900E9DB0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CF4448723CC123900E9DB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF4448923CC123A00E9DB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF4448C23CC123A00E9DB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF4448E23CC123A00E9DB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF4448F23CC123A00E9DB0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF4449723CC49BE00E9DB0B /* JSAnalysis+Userinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+Userinfo.m"; sourceTree = "<group>"; };
+		4CF4449823CC49BE00E9DB0B /* JSAnalysis+SystemSourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+SystemSourceInfo.m"; sourceTree = "<group>"; };
+		4CF4449923CC49BE00E9DB0B /* JSAnalysis+ContentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+ContentInfo.h"; sourceTree = "<group>"; };
+		4CF4449A23CC49BE00E9DB0B /* JSAnalysis+SensorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+SensorInfo.h"; sourceTree = "<group>"; };
+		4CF4449B23CC49BE00E9DB0B /* JSAnalysis+SIMCardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+SIMCardInfo.m"; sourceTree = "<group>"; };
+		4CF4449C23CC49BE00E9DB0B /* JSAnalysis+AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+AppInfo.m"; sourceTree = "<group>"; };
+		4CF4449D23CC49BE00E9DB0B /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		4CF4449E23CC49BE00E9DB0B /* JSAnalysis+NetInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+NetInfo.m"; sourceTree = "<group>"; };
+		4CF4449F23CC49BE00E9DB0B /* JSAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAnalysis.m; sourceTree = "<group>"; };
+		4CF444A023CC49BE00E9DB0B /* JSAnalysis+ClientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+ClientInfo.m"; sourceTree = "<group>"; };
+		4CF444A123CC49BE00E9DB0B /* JSAnalysisGPSLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAnalysisGPSLocationTool.m; sourceTree = "<group>"; };
+		4CF444A223CC49BE00E9DB0B /* JSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReachability.m; sourceTree = "<group>"; };
+		4CF444A323CC49BE00E9DB0B /* getgateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getgateway.h; sourceTree = "<group>"; };
+		4CF444A423CC49BE00E9DB0B /* JSAnalysis+ScreenInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+ScreenInfo.m"; sourceTree = "<group>"; };
+		4CF444A523CC49BE00E9DB0B /* JSAnalysis+Userinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+Userinfo.h"; sourceTree = "<group>"; };
+		4CF444A723CC49BE00E9DB0B /* NSString+JSAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSAnalysis.h"; sourceTree = "<group>"; };
+		4CF444A823CC49BE00E9DB0B /* NSData+JSAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSAnalysis.h"; sourceTree = "<group>"; };
+		4CF444A923CC49BE00E9DB0B /* JSAnalysisEncryptionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAnalysisEncryptionTool.m; sourceTree = "<group>"; };
+		4CF444AA23CC49BE00E9DB0B /* NSString+JSAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSAnalysis.m"; sourceTree = "<group>"; };
+		4CF444AB23CC49BE00E9DB0B /* NSData+JSAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSAnalysis.m"; sourceTree = "<group>"; };
+		4CF444AC23CC49BE00E9DB0B /* JSAnalysisEncryptionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAnalysisEncryptionTool.h; sourceTree = "<group>"; };
+		4CF444AD23CC49BE00E9DB0B /* JSAnalysis+SensorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+SensorInfo.m"; sourceTree = "<group>"; };
+		4CF444AE23CC49BE00E9DB0B /* JSAnalysis+ContentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSAnalysis+ContentInfo.m"; sourceTree = "<group>"; };
+		4CF444AF23CC49BE00E9DB0B /* JSAnalysis+SystemSourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+SystemSourceInfo.h"; sourceTree = "<group>"; };
+		4CF444B023CC49BE00E9DB0B /* JSAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAnalysis.h; sourceTree = "<group>"; };
+		4CF444B123CC49BE00E9DB0B /* JSAnalysis+NetInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+NetInfo.h"; sourceTree = "<group>"; };
+		4CF444B223CC49BE00E9DB0B /* JSAnalysis+SIMCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+SIMCardInfo.h"; sourceTree = "<group>"; };
+		4CF444B323CC49BE00E9DB0B /* JSAnalysis+AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+AppInfo.h"; sourceTree = "<group>"; };
+		4CF444B423CC49BE00E9DB0B /* JSAnalysis+ScreenInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+ScreenInfo.h"; sourceTree = "<group>"; };
+		4CF444B523CC49BE00E9DB0B /* getgateway.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getgateway.c; sourceTree = "<group>"; };
+		4CF444B623CC49BE00E9DB0B /* JSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReachability.h; sourceTree = "<group>"; };
+		4CF444B723CC49BE00E9DB0B /* JSAnalysisGPSLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAnalysisGPSLocationTool.h; sourceTree = "<group>"; };
+		4CF444B823CC49BE00E9DB0B /* JSAnalysis+ClientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSAnalysis+ClientInfo.h"; sourceTree = "<group>"; };
+		4CF444C923CC4BDA00E9DB0B /* NSData+JSCommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSCommonCrypto.m"; sourceTree = "<group>"; };
+		4CF444CA23CC4BDA00E9DB0B /* NSData+JSCommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSCommonCrypto.h"; sourceTree = "<group>"; };
+		4CF444CD23CC4C5800E9DB0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CF444CF23CC4C6100E9DB0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CF444D123CC4C6900E9DB0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CF444D323CC7A2800E9DB0B /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF4447723CC123900E9DB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF444CE23CC4C5800E9DB0B /* CoreGraphics.framework in Frameworks */,
+				4CF444D223CC4C6900E9DB0B /* UIKit.framework in Frameworks */,
+				4CF444D023CC4C6100E9DB0B /* Foundation.framework in Frameworks */,
+				4CF444D423CC7A3E00E9DB0B /* libresolv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF4447123CC123900E9DB0B = {
+			isa = PBXGroup;
+			children = (
+				4CF4447C23CC123900E9DB0B /* JSAnalysis */,
+				4CF4447B23CC123900E9DB0B /* Products */,
+				4CF444CC23CC4C5700E9DB0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF4447B23CC123900E9DB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF4447A23CC123900E9DB0B /* JSAnalysis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF4447C23CC123900E9DB0B /* JSAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				4CF4449623CC49BE00E9DB0B /* analysis */,
+				4CF4447D23CC123900E9DB0B /* AppDelegate.h */,
+				4CF4447E23CC123900E9DB0B /* AppDelegate.m */,
+				4CF4448023CC123900E9DB0B /* SceneDelegate.h */,
+				4CF4448123CC123900E9DB0B /* SceneDelegate.m */,
+				4CF4448323CC123900E9DB0B /* ViewController.h */,
+				4CF4448423CC123900E9DB0B /* ViewController.m */,
+				4CF4448623CC123900E9DB0B /* Main.storyboard */,
+				4CF4448923CC123A00E9DB0B /* Assets.xcassets */,
+				4CF4448B23CC123A00E9DB0B /* LaunchScreen.storyboard */,
+				4CF4448E23CC123A00E9DB0B /* Info.plist */,
+				4CF4448F23CC123A00E9DB0B /* main.m */,
+			);
+			path = JSAnalysis;
+			sourceTree = "<group>";
+		};
+		4CF4449623CC49BE00E9DB0B /* analysis */ = {
+			isa = PBXGroup;
+			children = (
+				4CF444B523CC49BE00E9DB0B /* getgateway.c */,
+				4CF444A323CC49BE00E9DB0B /* getgateway.h */,
+				4CF444B023CC49BE00E9DB0B /* JSAnalysis.h */,
+				4CF4449F23CC49BE00E9DB0B /* JSAnalysis.m */,
+				4CF444B323CC49BE00E9DB0B /* JSAnalysis+AppInfo.h */,
+				4CF4449C23CC49BE00E9DB0B /* JSAnalysis+AppInfo.m */,
+				4CF444B823CC49BE00E9DB0B /* JSAnalysis+ClientInfo.h */,
+				4CF444A023CC49BE00E9DB0B /* JSAnalysis+ClientInfo.m */,
+				4CF4449923CC49BE00E9DB0B /* JSAnalysis+ContentInfo.h */,
+				4CF444AE23CC49BE00E9DB0B /* JSAnalysis+ContentInfo.m */,
+				4CF444B123CC49BE00E9DB0B /* JSAnalysis+NetInfo.h */,
+				4CF4449E23CC49BE00E9DB0B /* JSAnalysis+NetInfo.m */,
+				4CF444B423CC49BE00E9DB0B /* JSAnalysis+ScreenInfo.h */,
+				4CF444A423CC49BE00E9DB0B /* JSAnalysis+ScreenInfo.m */,
+				4CF4449A23CC49BE00E9DB0B /* JSAnalysis+SensorInfo.h */,
+				4CF444AD23CC49BE00E9DB0B /* JSAnalysis+SensorInfo.m */,
+				4CF444B223CC49BE00E9DB0B /* JSAnalysis+SIMCardInfo.h */,
+				4CF4449B23CC49BE00E9DB0B /* JSAnalysis+SIMCardInfo.m */,
+				4CF444AF23CC49BE00E9DB0B /* JSAnalysis+SystemSourceInfo.h */,
+				4CF4449823CC49BE00E9DB0B /* JSAnalysis+SystemSourceInfo.m */,
+				4CF444A523CC49BE00E9DB0B /* JSAnalysis+Userinfo.h */,
+				4CF4449723CC49BE00E9DB0B /* JSAnalysis+Userinfo.m */,
+				4CF444B723CC49BE00E9DB0B /* JSAnalysisGPSLocationTool.h */,
+				4CF444A123CC49BE00E9DB0B /* JSAnalysisGPSLocationTool.m */,
+				4CF444B623CC49BE00E9DB0B /* JSReachability.h */,
+				4CF444A223CC49BE00E9DB0B /* JSReachability.m */,
+				4CF4449D23CC49BE00E9DB0B /* route.h */,
+				4CF444A623CC49BE00E9DB0B /* UCEncryptionTool */,
+			);
+			path = analysis;
+			sourceTree = "<group>";
+		};
+		4CF444A623CC49BE00E9DB0B /* UCEncryptionTool */ = {
+			isa = PBXGroup;
+			children = (
+				4CF444CA23CC4BDA00E9DB0B /* NSData+JSCommonCrypto.h */,
+				4CF444C923CC4BDA00E9DB0B /* NSData+JSCommonCrypto.m */,
+				4CF444AC23CC49BE00E9DB0B /* JSAnalysisEncryptionTool.h */,
+				4CF444A923CC49BE00E9DB0B /* JSAnalysisEncryptionTool.m */,
+				4CF444A823CC49BE00E9DB0B /* NSData+JSAnalysis.h */,
+				4CF444AB23CC49BE00E9DB0B /* NSData+JSAnalysis.m */,
+				4CF444A723CC49BE00E9DB0B /* NSString+JSAnalysis.h */,
+				4CF444AA23CC49BE00E9DB0B /* NSString+JSAnalysis.m */,
+			);
+			path = UCEncryptionTool;
+			sourceTree = "<group>";
+		};
+		4CF444CC23CC4C5700E9DB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF444D323CC7A2800E9DB0B /* libresolv.tbd */,
+				4CF444D123CC4C6900E9DB0B /* UIKit.framework */,
+				4CF444CF23CC4C6100E9DB0B /* Foundation.framework */,
+				4CF444CD23CC4C5800E9DB0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF4447923CC123900E9DB0B /* JSAnalysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF4449323CC123A00E9DB0B /* Build configuration list for PBXNativeTarget "JSAnalysis" */;
+			buildPhases = (
+				4CF4447623CC123900E9DB0B /* Sources */,
+				4CF4447723CC123900E9DB0B /* Frameworks */,
+				4CF4447823CC123900E9DB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSAnalysis;
+			productName = JSAnalysis;
+			productReference = 4CF4447A23CC123900E9DB0B /* JSAnalysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF4447223CC123900E9DB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Jsoon;
+				TargetAttributes = {
+					4CF4447923CC123900E9DB0B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CF4447523CC123900E9DB0B /* Build configuration list for PBXProject "JSAnalysis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF4447123CC123900E9DB0B;
+			productRefGroup = 4CF4447B23CC123900E9DB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF4447923CC123900E9DB0B /* JSAnalysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF4447823CC123900E9DB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF4448D23CC123A00E9DB0B /* LaunchScreen.storyboard in Resources */,
+				4CF4448A23CC123A00E9DB0B /* Assets.xcassets in Resources */,
+				4CF4448823CC123900E9DB0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF4447623CC123900E9DB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF444BE23CC49BE00E9DB0B /* JSAnalysis.m in Sources */,
+				4CF444C723CC49BE00E9DB0B /* JSAnalysis+ContentInfo.m in Sources */,
+				4CF444BC23CC49BE00E9DB0B /* JSAnalysis+AppInfo.m in Sources */,
+				4CF444CB23CC4BDA00E9DB0B /* NSData+JSCommonCrypto.m in Sources */,
+				4CF444C123CC49BE00E9DB0B /* JSReachability.m in Sources */,
+				4CF444BB23CC49BE00E9DB0B /* JSAnalysis+SIMCardInfo.m in Sources */,
+				4CF444C223CC49BE00E9DB0B /* JSAnalysis+ScreenInfo.m in Sources */,
+				4CF4448523CC123900E9DB0B /* ViewController.m in Sources */,
+				4CF444C823CC49BE00E9DB0B /* getgateway.c in Sources */,
+				4CF444C023CC49BE00E9DB0B /* JSAnalysisGPSLocationTool.m in Sources */,
+				4CF4447F23CC123900E9DB0B /* AppDelegate.m in Sources */,
+				4CF444C523CC49BE00E9DB0B /* NSData+JSAnalysis.m in Sources */,
+				4CF444BA23CC49BE00E9DB0B /* JSAnalysis+SystemSourceInfo.m in Sources */,
+				4CF4449023CC123A00E9DB0B /* main.m in Sources */,
+				4CF444C323CC49BE00E9DB0B /* JSAnalysisEncryptionTool.m in Sources */,
+				4CF444BF23CC49BE00E9DB0B /* JSAnalysis+ClientInfo.m in Sources */,
+				4CF444B923CC49BE00E9DB0B /* JSAnalysis+Userinfo.m in Sources */,
+				4CF444C623CC49BE00E9DB0B /* JSAnalysis+SensorInfo.m in Sources */,
+				4CF444BD23CC49BE00E9DB0B /* JSAnalysis+NetInfo.m in Sources */,
+				4CF4448223CC123900E9DB0B /* SceneDelegate.m in Sources */,
+				4CF444C423CC49BE00E9DB0B /* NSString+JSAnalysis.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CF4448623CC123900E9DB0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF4448723CC123900E9DB0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF4448B23CC123A00E9DB0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF4448C23CC123A00E9DB0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF4449123CC123A00E9DB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CF4449223CC123A00E9DB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF4449423CC123A00E9DB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9DZXL3SNJ;
+				INFOPLIST_FILE = JSAnalysis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jsoon.JSAnalysis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF4449523CC123A00E9DB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9DZXL3SNJ;
+				INFOPLIST_FILE = JSAnalysis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jsoon.JSAnalysis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF4447523CC123900E9DB0B /* Build configuration list for PBXProject "JSAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF4449123CC123A00E9DB0B /* Debug */,
+				4CF4449223CC123A00E9DB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF4449323CC123A00E9DB0B /* Build configuration list for PBXNativeTarget "JSAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF4449423CC123A00E9DB0B /* Debug */,
+				4CF4449523CC123A00E9DB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF4447223CC123900E9DB0B /* Project object */;
+}
