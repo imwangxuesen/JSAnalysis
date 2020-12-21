@@ -44,7 +44,7 @@ JSAnalysis 是一款苹果设备信息静默获取的工具。它可以在用户
 <td class="tg-0pky">2</td>
 <td class="tg-0pky">应用唯一标识</td>
 <td class="tg-0pky">appBundle</td>
-<td class="tg-0pky">友信普惠或 YOUXIN</td>
+<td class="tg-0pky">公司名称</td>
 <td class="tg-0pky">Y</td>
 <td class="tg-0pky"></td>
 <td class="tg-0pky"></td>
